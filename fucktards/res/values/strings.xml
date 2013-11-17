@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+ 
+    <string-array name="soundoptions">
+        <item>Normal</item>
+        <item>Distortion</item>
+		<item>Vibrato</item>
+        <item>Marimba</item>
+        <item>Trumpet</item>
+        <item>Normal Faded</item>
+        <item>Click</item>
+    </string-array>
+</resources>

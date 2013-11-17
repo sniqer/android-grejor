@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- "background shadow" -->
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="#9AC0CD" />
+
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+    <!-- background color -->
+    <item
+        android:bottom="7px"
+        android:left="7px"
+        android:right="7px"
+        android:top="7px">
+        <shape android:shape="rectangle" >
+            <solid android:color="#9AC0CD" />
+
+
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+    <!-- over left shadow -->
+    <item>
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="180"
+                android:centerColor="#9AC0CD"
+                android:centerX="0.9"
+                android:endColor="#9AC0CD"
+                android:startColor="#9AC0CD" />
+
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+    <!-- over right shadow -->
+    <item>
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="360"
+                android:centerColor="#9AC0CD"
+                android:centerX="0.9"
+                android:endColor="#9AC0CD"
+                android:startColor="#9AC0CD" />
+
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+    <!-- over top shadow -->
+    <item>
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="-90"
+                android:centerColor="#9AC0CD"
+                android:centerY="0.9"
+                android:endColor="#9AC0CD"
+                android:startColor="#D9D9F3"
+                android:type="linear" />
+
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+    <!-- over bottom shadow -->
+    <item>
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="90"
+                android:centerColor="#87CEFA"
+                android:centerY="0.5"
+                android:endColor="#ffffff"
+                android:startColor="#2F2F4F"
+                android:type="linear" />
+
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+</layer-list>
