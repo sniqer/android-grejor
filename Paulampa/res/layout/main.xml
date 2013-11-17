@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="161dp"
+        android:layout_height="145dp"
+        android:layout_gravity="right"
+        android:color="#0F0F00"
+        android:text="BLINKA KONSTIGT!"
+        android:background="#f10"
+         />
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="fill_parent"
+        android:layout_height="239dp"
+        android:layout_gravity="bottom"
+        android:background="#0f0"
+        android:text="TÄND!!!" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="161dp"
+        android:layout_height="145dp"
+        android:background="#05f"
+        android:text="BLINKA!!" />
+
+</FrameLayout>
